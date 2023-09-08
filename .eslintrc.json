@@ -1,0 +1,30 @@
+{
+    "extends": ["airbnb", "prettier","eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"], 
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["prettier","@typescript-eslint"],
+    "rules": {
+      "no-unused-vars": "error",
+      "no-console": "off",
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "js": "never",
+          "jsx": "never",
+          "ts": "never",
+          "tsx": "never"
+        }
+     ]
+
+    }
+    ,
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        }
+      }
+  }
+}

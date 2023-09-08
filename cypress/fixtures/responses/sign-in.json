@@ -1,0 +1,52 @@
+{
+  "body": {
+    "value": "eyJ0eXAiOiJBVVRIRU5USUNBVElPTiIsImFsZyI6IkhTNTEyIn0.eyJqdGkiOiJlOGI2MGNmOC0zN2UzLTQxYzctODYzNC0zMmM1NzcwODlhNmIiLCJzdWIiOiJnYWx5bmEuYWxpZWtzYW5kcm92YSs1QHphem1pYy5jb20iLCJpc3MiOiJjbG91ZGhlYWx0aC1jb250cm9sbGVyLWFwcGxpY2F0aW9uIiwiaWF0IjoxNjc0MTQ3NzE4LCJleHAiOjE2NzQxNTQ5MTgsInJvbGUiOiJBRE1JTiIsImludGVncmF0aW9uU2V0TmFtZSI6ImNsb3VkaGVhbHRoLXN0ZyJ9.LyxeqXFexinWKM6Qxn_xwDuQrYoLj1M_s44m8yuBzjIaGofU46uorodJ5011ktEx97rRE7sJaF7TCwGyWyehRQ"
+  },
+  "headers": {
+    "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "date": "Thu, 19 Jan 2023 17:01:58 GMT",
+    "via": "1.1 google",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "status": 201,
+  "statusText": "Created",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-length": 69
+  },
+  "requestBody": "{\"user\":\"galyna.alieksandrova+5@zazmic.com\",\"password\":\"TestAcc123!\"}",
+  "duration": 826,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"user\":\"galyna.alieksandrova+5@zazmic.com\",\"password\":\"TestAcc123!\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-length": 69
+      },
+      "Request URL": "https://backend-stage.clouds.health/v1/auth/token",
+      "Response Body": {
+        "value": "eyJ0eXAiOiJBVVRIRU5USUNBVElPTiIsImFsZyI6IkhTNTEyIn0.eyJqdGkiOiJlOGI2MGNmOC0zN2UzLTQxYzctODYzNC0zMmM1NzcwODlhNmIiLCJzdWIiOiJnYWx5bmEuYWxpZWtzYW5kcm92YSs1QHphem1pYy5jb20iLCJpc3MiOiJjbG91ZGhlYWx0aC1jb250cm9sbGVyLWFwcGxpY2F0aW9uIiwiaWF0IjoxNjc0MTQ3NzE4LCJleHAiOjE2NzQxNTQ5MTgsInJvbGUiOiJBRE1JTiIsImludGVncmF0aW9uU2V0TmFtZSI6ImNsb3VkaGVhbHRoLXN0ZyJ9.LyxeqXFexinWKM6Qxn_xwDuQrYoLj1M_s44m8yuBzjIaGofU46uorodJ5011ktEx97rRE7sJaF7TCwGyWyehRQ"
+      },
+      "Response Headers": {
+        "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "date": "Thu, 19 Jan 2023 17:01:58 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      "Response Status": 201
+    }
+  ]
+}

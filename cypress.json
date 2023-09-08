@@ -1,0 +1,7 @@
+{
+  "ignoreTestFiles": "*.ts",
+  "env":{
+    "url":"https://platform-stage.clouds.health",
+    "apiURL":"https://backend-stage.clouds.health"
+  }
+}

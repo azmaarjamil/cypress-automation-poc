@@ -1,0 +1,61 @@
+{
+  "name": "guard-rails-assignment",
+  "version": "1.0.0",
+  "description": "Automation Package for Assignment of Guard Rails",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed",
+    "tagTest": "cypress-tags run --headed",
+    "open": "cypress open",
+    "lint": "eslint  \"cypress/**/*.ts\"",
+    "format": "prettier --write \"./**/*.{ts,json}\"",
+    "precommit": "lint-staged"
+  },
+  "author": "Muhammad Azmaar Jamil",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^9.3.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-file-upload": "^5.0.8",
+    "fs-extra": "9.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{ts}": [
+      "prettier --write",
+      "eslint \"cypress/**/*.ts\" --fix"
+    ],
+    "*.ts": "eslint \"cypress/**/*.ts\" --cache --fix",
+    "*.{ts}": "prettier --write"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.2.1",
+    "@faker-js/faker": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "cypress-xpath": "^1.6.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.25.1",
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.3",
+    "mocha": "^9.0.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.6.4"
+  }
+}

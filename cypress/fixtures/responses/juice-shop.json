@@ -1,0 +1,80 @@
+{
+  "body": {
+    "status": "success",
+    "data": {
+      "id": 467,
+      "ProductId": "1",
+      "BasketId": "8",
+      "quantity": "1",
+      "updatedAt": "2022-06-16T21:22:11.028Z",
+      "createdAt": "2022-06-16T21:22:11.028Z"
+    }
+  },
+  "headers": {
+    "date": "Thu, 16 Jun 2022 21:22:11 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "162",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "feature-policy": "payment 'self'",
+    "etag": "W/\"a2-rVjBbPRUW62vy2iPf9aCU18EGik\"",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=15724800; includeSubDomains"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjMsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJhc2hhcmlqYXoyM0BnbWFpbC5jb20iLCJwYXNzd29yZCI6IjE4Y2EzNDQyMmI3YzMzODg3NmQxNDE5NDBkNGYwOTljIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIyLTA2LTEzIDA3OjUyOjIxLjYwNyArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIyLTA2LTEzIDA4OjE1OjI3LjQyMyArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE2NTU0MTQ1MzAsImV4cCI6MTY1NTQzMjUzMH0.T0mF4vjtwh1eszU1n8wgc5PO7KlbXF_WYIozluuOSPUyIwzsB3InOoM5hpTLn849hbKIlzMfC4IbxsEca4RmQ25zRPjDCLtubWk-ozpQ14Rn07ewCzAq4QI6AjtqYDekfACchfbciwQi02e_1D7DQVo2Qj3jmoZfi7LF50sGQEU",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/8.7.0 Chrome/93.0.4577.82 Electron/14.1.0 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-length": 47
+  },
+  "requestBody": "{\"ProductId\":\"1\",\"BasketId\":\"8\",\"quantity\":\"1\"}",
+  "duration": 266,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"ProductId\":\"1\",\"BasketId\":\"8\",\"quantity\":\"1\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjMsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJhc2hhcmlqYXoyM0BnbWFpbC5jb20iLCJwYXNzd29yZCI6IjE4Y2EzNDQyMmI3YzMzODg3NmQxNDE5NDBkNGYwOTljIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIyLTA2LTEzIDA3OjUyOjIxLjYwNyArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIyLTA2LTEzIDA4OjE1OjI3LjQyMyArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE2NTU0MTQ1MzAsImV4cCI6MTY1NTQzMjUzMH0.T0mF4vjtwh1eszU1n8wgc5PO7KlbXF_WYIozluuOSPUyIwzsB3InOoM5hpTLn849hbKIlzMfC4IbxsEca4RmQ25zRPjDCLtubWk-ozpQ14Rn07ewCzAq4QI6AjtqYDekfACchfbciwQi02e_1D7DQVo2Qj3jmoZfi7LF50sGQEU",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/8.7.0 Chrome/93.0.4577.82 Electron/14.1.0 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-length": 47
+      },
+      "Request URL": "https://juice-shop.guardrails.ai/api/BasketItems/",
+      "Response Body": {
+        "status": "success",
+        "data": {
+          "id": 467,
+          "ProductId": "1",
+          "BasketId": "8",
+          "quantity": "1",
+          "updatedAt": "2022-06-16T21:22:11.028Z",
+          "createdAt": "2022-06-16T21:22:11.028Z"
+        }
+      },
+      "Response Headers": {
+        "date": "Thu, 16 Jun 2022 21:22:11 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "162",
+        "connection": "keep-alive",
+        "access-control-allow-origin": "*",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "feature-policy": "payment 'self'",
+        "etag": "W/\"a2-rVjBbPRUW62vy2iPf9aCU18EGik\"",
+        "vary": "Accept-Encoding",
+        "strict-transport-security": "max-age=15724800; includeSubDomains"
+      },
+      "Response Status": 200
+    }
+  ]
+}
